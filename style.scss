@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+main{
+    img{
+        width: 200px;
+        display: block; //para reverter uma img um do lado da outra
+    }
+
+    div{
+        width: 200px;
+        height: 100px;
+        background-color: cadetblue;
+        border: solid 2px;
+        display: inline-block; //padrão de img (um do lado do outro)
+    }
+
+    article{
+        width: 200px;
+        height: 100px;
+        background-color: rosybrown;
+        //background-color: rgba(red, green, blue, alpha);//alpha é a opacidade
+        //display: inline; //não respeita largura e altura
+    }
+    
+    p{
+        font-family: "Gowun Batang", serif; //pega no google fonts
+        font-size: 20px;
+        font-weight: bold; //aumenta a espessura da fonte
+    }
+}
